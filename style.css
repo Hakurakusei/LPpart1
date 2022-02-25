@@ -1,0 +1,258 @@
+@charset "UTF-8";
+.header__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: white;
+}
+
+.header__logo {
+  margin-left: 4%;
+  width: 30%;
+}
+
+.header__btnArea {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 4%;
+  width: 58%;
+}
+
+.header__btnArea button {
+  border: none;
+}
+
+.l-inner {
+  width: 100%;
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+.cycle__point {
+  position: relative;
+}
+
+.cycle__point:nth-child(3n) {
+  margin-top: 30px;
+}
+
+.cycle__point .point {
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 35%;
+  height: auto;
+}
+
+.consultation__reserve {
+  background-color: #2b2b2b;
+  padding: 60px 20px;
+  background-image: url("img/bg_logo.png");
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position: 99% 99%;
+}
+
+.consultation__reserve button {
+  border: none;
+  background-color: transparent;
+}
+
+.consultation__reserve p {
+  padding-top: 15px;
+  text-align: center;
+  color: white;
+  padding-bottom: 5px;
+  background-color: transparent;
+}
+
+.concept__btn {
+  margin-bottom: 60px;
+  border: none;
+}
+
+.company__title {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.company__info {
+  width: 90%;
+  margin: 0 auto;
+  background-color: white;
+  margin-top: 20px;
+}
+
+.company__info tr {
+  border: none;
+  text-align: left;
+  height: 100%;
+}
+
+.company__info tr th {
+  width: 30%;
+  vertical-align: middle;
+  font-style: normal;
+  font-weight: normal;
+  background: #f2f0ed;
+  padding: 10px;
+  font-size: 12px;
+}
+
+.company__info tr td {
+  width: 70%;
+  background-color: white;
+  padding: 10px;
+  font-size: 12px;
+}
+
+.company__map {
+  width: 90%;
+  margin: 30px auto 0 auto;
+}
+
+.company__map iframe {
+  width: 100%;
+}
+
+.footer__body {
+  background-color: #000;
+  padding-top: 60px;
+  height: 100%;
+  margin-top: 40px;
+}
+
+.footer__body .footer__title {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.footer__body .footer__reserve {
+  padding-top: 20px;
+}
+
+.footer__body .footer__reserve button {
+  display: inline-block;
+  border: none;
+  background-color: transparent;
+  margin-right: 5%;
+  margin-left: 5%;
+  text-align: center;
+  padding: 0;
+}
+
+.footer__body .footer__reserve button:nth-child(4) {
+  margin-top: 20px;
+}
+
+.footer__body .footer__reserve p {
+  padding-top: 15px;
+  text-align: center;
+  color: white;
+  padding-bottom: 5px;
+  background-color: transparent;
+}
+
+.footer__body .footer__logo {
+  width: 70%;
+  margin: 30px auto 0 auto;
+}
+
+.footer__body p {
+  color: white;
+  text-align: center;
+}
+
+.footer__body .footer__cc {
+  padding: 20px 0;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  margin-top: 25px;
+}
+
+.footer__body .footer__about {
+  margin-top: 25px;
+  padding-bottom: 150px;
+}
+
+#nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 100;
+  -webkit-transform: translateY(100%);
+          transform: translateY(100%);
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: -webkit-transform 0.5s;
+  transition: transform 0.5s;
+  transition: transform 0.5s, -webkit-transform 0.5s;
+  background-color: black;
+  background-image: url("img/bg_logo.png");
+  background-repeat: no-repeat;
+  background-position: 103% 99%;
+  background-size: 60%;
+}
+
+#nav .nav__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 13%;
+  padding: 20px 0;
+}
+
+#nav button {
+  background-color: transparent;
+  border: none;
+  width: 45%;
+  height: auto;
+}
+
+#nav button:nth-child(1) {
+  margin-right: 1%;
+}
+
+#nav button:nth-child(2) {
+  margin-left: 1%;
+}
+
+#nav.open {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  vertical-align: top;
+  font-family: "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN","Helvetica Neue","メイリオ", Meiryo,"MS PGothic","Osaka",Arial,sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+  color: #333;
+  font-size: 13px;
+}
+
+body {
+  background-color: #e5e0da;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+/*# sourceMappingURL=style.css.map */

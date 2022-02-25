@@ -1,0 +1,22 @@
+.consultation__reserve {
+    background-color: #2b2b2b;
+    padding:60px 20px;
+    background-image: url("img/bg_logo.png");
+    background-repeat: no-repeat;
+    background-size:60%;
+    background-position: 99% 99%;
+
+    & button {
+        border: none;
+        background-color: transparent;
+    }
+
+
+    & p{
+        padding-top: 15px;
+        text-align: center;
+        color:white;
+        padding-bottom: 5px;
+        background-color: transparent;
+    }
+}

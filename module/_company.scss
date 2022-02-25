@@ -1,0 +1,43 @@
+.company__title{
+    width:50%;
+    margin:0 auto;
+}
+
+.company__info{
+    width: 90%;
+    margin:0 auto;
+    background-color: white;
+    margin-top: 20px;
+    
+
+
+    & tr{
+        border:none;
+        text-align: left;
+        height:100%;
+        & th{
+            width: 30%;
+            vertical-align: middle;
+            font-style: normal;
+            font-weight: normal;
+            background: #f2f0ed;
+            padding: 10px;
+            font-size: 12px;
+        }
+        & td{
+            width: 70%;
+            background-color: white;
+            padding: 10px;
+            font-size: 12px;
+        }
+    }
+}
+.company__map{
+    width:90%;
+    margin:30px auto 0 auto;
+    
+    & iframe{
+        width:100%;
+    }
+    
+}

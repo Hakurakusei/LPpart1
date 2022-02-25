@@ -1,0 +1,33 @@
+@import "module/header";
+@import "module/l-inner";
+@import "module/mv";
+@import "module/about";
+@import "module/feel";
+@import "module/cycle";
+@import "module/consultation";
+@import "module/concept";
+@import "module/company";
+@import "module/footer";
+@import "module/nav";
+
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    vertical-align:top;
+    font-family: "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN","Helvetica Neue","メイリオ", Meiryo,"MS PGothic","Osaka",Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+    color: #333;
+    font-size: 13px;
+}
+
+body{
+    background-color: #e5e0da;
+}
+
+img{
+    width: 100%;
+    height:100%;
+
+}
